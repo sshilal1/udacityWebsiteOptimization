@@ -5,7 +5,8 @@
 1. Removed Google Webfonts, saved multiple seconds
 2. Minified CSS
 3. Made both JS scripts load asynchronously
-4. 
+4. Compressed images using compressor.io
+5. 
 
 ### Part 2: Optimize Frames per Second in pizza.html
 
