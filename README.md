@@ -9,8 +9,13 @@
 
 ### Part 2: Optimize Frames per Second in pizza.html
 
-1. Optomized For Loop ->  max was 30 fps, now max is 40 fps while scrolling
-
+1. Optimized For Loop
+	* Max was 30 fps, now max is 40 fps while scrolling
+2. Debouncing Scroll events. 'debounce' section of http://www.html5rocks.com/en/tutorials/speed/scrolling/
+	* Stored last value of scroll position
+	* Performed updates inside a requestanimationframe using last value of scroll position
+	* Succesfully scroll at 60 fps
+3. Resizing pizzas is at an average of .7ms, which is less than the required 5ms
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
 
